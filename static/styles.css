@@ -1,0 +1,28 @@
+.container{
+   font-family:Arial, Helvetica, sans-serif;
+   text-align: center;
+   padding:30px;
+ 
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+}
+label{
+    font-weight:bold;
+    margin:10px;
+}
+input,select{
+    border-radius:8px;
+    border:1px solid  #989898;
+}
+.button{
+    margin-top:20px;
+    padding:10px;
+    cursor:pointer;
+    font-size:17px;
+    border-radius:5px;
+    border:none;
+    background-color:#5cabc0;
+}
